@@ -17,8 +17,8 @@
         a = a + 1  # 1 ns
         a = a * 2  # 10 ns
         # 循环 n 次
-        for _ in range(n):  # 1 ns
-            print(0)        # 5 ns
+        for i in range(n):  # 1 ns
+            print(a)        # 5 ns
     ```
 
 === "C++"
